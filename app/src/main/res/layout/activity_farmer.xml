@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    tools:context=".Farmer">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Farmer Name*"></EditText>
+
+            <EditText
+                android:id="@+id/village"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Village*"></EditText>
+
+            <EditText
+                android:id="@+id/taluk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Taluk*"></EditText>
+
+            <EditText
+                android:id="@+id/district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="District*"></EditText>
+
+            <EditText
+                android:id="@+id/soil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Soil Type*"></EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Select Crop"></TextView>
+            <Spinner
+                android:id="@+id/croptype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:visibility="gone"
+                android:hint="Select Product"></TextView>
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown" />
+
+
+
+            <EditText
+                android:id="@+id/phno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:digits="0123456789."
+                android:hint="Phone Number*"></EditText>
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:editable="false"
+                android:hint="Date of Sowing*"></EditText>
+
+
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"></Button>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_gravity="center"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

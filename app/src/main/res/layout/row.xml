@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tex"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="142dp"
+        android:text="@string/row_remove" />
+
+    <AutoCompleteTextView
+        android:id="@+id/textout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+    <AutoCompleteTextView
+        android:id="@+id/tex"
+        android:layout_below="@+id/textout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+
+
+
+</RelativeLayout>
+

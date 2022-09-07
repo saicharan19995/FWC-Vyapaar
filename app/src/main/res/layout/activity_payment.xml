@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/payment_heading"
+            android:textStyle="bold"></TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="#12EEF2F4"
+            android:id="@+id/send"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/imageupi"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:text="Pay through UPI "/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#12EEF2F4"
+            android:visibility="gone"
+            android:id="@+id/googlepay"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/googlepay"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="@string/payment_googlepay"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#12EEF2F4"
+            android:visibility="gone"
+            android:id="@+id/phonepay"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/phonepay"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="@string/payment_phonepay"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#12EEF2F4"
+            android:id="@+id/cash"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/caash"
+                    ></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:text="@string/payment_cash"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

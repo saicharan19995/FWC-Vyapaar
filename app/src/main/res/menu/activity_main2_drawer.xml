@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/main2_drawer_home" />
+        <item
+            android:id="@+id/nav_kid"
+            android:icon="@drawable/ic_child"
+            android:title="@string/main2_drawer_profile" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_action_order"
+            android:visible="false"
+            android:title="@string/main2_drawer_cart" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_action_oood"
+            android:title="@string/main2_drawer_order" />
+        <item
+            android:id="@+id/nav_track"
+            android:visible="false"
+            android:icon="@drawable/ic_action_loc"
+            android:title="@string/main2_drawer_track" />
+    </group>
+
+    <item android:title="Sell Products"
+        android:id="@+id/nav_slideshow">
+        <menu>
+
+            <item
+                android:id="@+id/nav_prod"
+                android:icon="@drawable/ic_action_kitch"
+                android:title="@string/main2_drawer_urproduct" />
+
+            <item
+                android:id="@+id/nav_acc"
+                android:icon="@drawable/ic_action_done"
+                android:title="@string/main2_drawer_accept"/>
+            <item
+                android:id="@+id/nav_add"
+                android:icon="@drawable/ic_action_add"
+                android:title="@string/main2_drawer_add"/>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_lang"
+                android:visible="false"
+                android:icon="@drawable/ic_action_lang"
+                android:title="@string/main2_drawer_lang" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/main2_drawer_share" />
+
+<!--            <item-->
+<!--                android:id="@+id/nav_abt"-->
+<!--                android:icon="@drawable/ic_login"-->
+<!--                android:title="@string/main2_drawer_about"/>-->
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_action_feedback"
+                android:title="Feedback"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_action_rem"
+                android:title="@string/main2_drawer_logout"/>
+        </menu>
+    </item>
+</menu>

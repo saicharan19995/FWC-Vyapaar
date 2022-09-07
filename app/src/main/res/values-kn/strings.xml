@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VaviMart</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <string name="action_Cart">Cart</string>
+    <string name="action_Notification">Notification</string>
+
+    <string name="about">VaviMart - Rainbow for Marketing\n\nApplication helps in establishing direct connection between buyers and sellers avoiding intermediate persons involving in trading.\n\nDevelopers:\n\n<b>Dr. S.P. Shiva Prakash</b>\nAssociate Professor\n\n<b>Ms. Monisha B.S</b> (M.Tech in Software Engineering)\n<b>Mr. Swaroop S</b> (M.Tech in Software Engineering)\n\nDepartment of Information Science and Engineering\nJSS Science and Technology University, Mysuru</string>
+
+    <!--    activity_address-->
+    <string name="address_city">ನಗರ*</string>
+    <string name="address_locality">ಸ್ಥಳ, ಪ್ರದೇಶ ಅಥವಾ ರಸ್ತೆ*</string>
+    <string name="address_flat">ಫ್ಲಾಟ್ ಸಂಖ್ಯೆ, ಕಟ್ಟಡದ ಹೆಸರು*</string>
+    <string name="address_pincode">ಪಿನ್ಕೋಡ್*</string>
+    <string name="address_state">ರಾಜ್ಯ*</string>
+    <string name="address_lankmark">ಹೆಗ್ಗುರುತು(Optional)</string>
+    <string name="address_upiname">ಯುಪಿಐ ಖಾತೆಯಲ್ಲಿ ಹೆಸರು (ಗೂಗಲ್ ಪೇ / ಫೋನ್ ಪೇ)</string>
+    <string name="address_upiid">ಯುಪಿಐ ಐಡಿ (ಹೆಸರು @ ಒಕಾಕ್ಸಿಸ್)</string>
+    <string name="address_mobile">ಪರ್ಯಾಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ(Optional)</string>
+    <string name="address_submit">ಉಳಿಸಿ</string>
+
+    <!--    actvity_cart-->
+    <string name="cart_heading"> ಬೆಲೆ ವಿವರಗಳು </string>
+    <string name="cart_address">ವಿಳಾಸ</string>
+    <string name="cart_priceitem">ಬೆಲೆ (0 ವಸ್ತುಗಳು)</string>
+    <string name="cart_rupee">ರೂ. 0 /-</string>
+    <string name="cart_total">ಒಟ್ಟು ಮೊತ್ತ</string>
+    <string name="cart_totalrupee">ರೂ. 0/-</string>
+    <string name="cart_buy">ಖರೀದಿಸು</string>
+
+    <!--    activity_login-->
+    <string name="login_forgot">ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರಾ?</string>
+    <string name="login_signup">ಇಲ್ಲಿ ಹೊಸತು? ಖಾತೆ ತೆರೆ</string>
+    <string name="login_login">ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="login_password">ಗುಪ್ತಪದ</string>
+    <string name="login_email">ಇಮೇಲ್</string>
+    <string name="login_heading">ಲಾಗಿನ್</string>
+
+    <!--    activity_main-->
+    <string name="main_urname">ನಿಮ್ಮ ಹೆಸರು</string>
+    <string name="main_uremail">ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸ</string>
+    <string name="main_urphone">ಮೊಬೈಲ್ ಸಂಖ್ಯೆ</string>
+    <string name="main_updateaddress">ವಿಳಾಸವನ್ನು ನವೀಕರಿಸಿ ಮತ್ತು ಪಾವತಿ ವಿವರಗಳು</string>
+    <string name="main_resetpassword">ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸಿ</string>
+    <string name="main_changeacctype">ಖಾತೆ ಪ್ರಕಾರವನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="main_fullname">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="main_email">ಇಮೇಲ್</string>
+    <string name="main_phone">ದೂರವಾಣಿ</string>
+    <string name="main_address">ವಿಳಾಸ</string>
+    <string name="main_address2">ವಿಳಾಸ</string>
+    <string name="main_type">ಖಾತೆಯ ಪ್ರಕಾರ</string>
+    <string name="main_type2">ಪ್ರಕಾರ</string>
+    <string name="main_heading">ಇಮೇಲ್ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ!</string>
+    <string name="main_verify">ಈಗ ಪರಿಶೀಲಿಸಿ</string>
+
+    <!--    activity_ordere_details-->
+    <string name="order_details_heading"> ಬೆಲೆ ವಿವರಗಳು </string>
+    <string name="order_details_price">ಬೆಲೆ (0 ವಸ್ತುಗಳು)</string>
+    <string name="order_details_rupee">ರೂ. 0/-</string>
+    <string name="order_details_totalamount">ಒಟ್ಟು ಮೊತ್ತ</string>
+    <string name="order_details_totalrupee">ರೂ. 0/-</string>
+    <string name="order_details_button">ಮ್ಯಾಪ್(ವಿಳಾಸ) </string>
+
+    <!--    activity_payment-->
+
+    <string name="payment_heading">ಪಾವತಿ</string>
+    <string name="payment_upi">ಯುಪಿಐ ಮೂಲಕ ಪಾವತಿಸಿ </string>
+    <string name="payment_googlepay">ಗೂಗಲ್ ಪೇ ಮೂಲಕ ಪಾವತಿಸಿ </string>
+    <string name="payment_phonepay">ಫೋನ್ ಪೇ ಮೂಲಕ ಪಾವತಿಸಿ </string>
+    <string name="payment_cash">ನಗದು ಮೂಲಕ ಪಾವತಿಸಿ </string>
+
+    <!--    activity_producer-->
+
+    <string name="producer_heading1">ಬಳಕೆದಾರ</string>
+    <string name="producer_heading2">ನಿರ್ಮಾಪಕ</string>
+    <string name="producer_profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="producer_checkprofile">ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಪರಿಶೀಲಿಸಿ</string>
+    <string name="producer_liveloca">ಲೈವ್ ಸ್ಥಳ</string>
+    <string name="producer_enablelive">ಲೈವ್ ಟ್ರ್ಯಾಕಿಂಗ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="producer_products">ಉತ್ಪನ್ನಗಳು</string>
+    <string name="producer_addproducts">ಉತ್ಪನ್ನಗಳನ್ನು ಸೇರಿಸಿ ಮತ್ತು ವೀಕ್ಷಿಸಿ</string>
+    <string name="producer_vieworders">ಆದೇಶಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="producer_acceptorder">ಆದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸಿ</string>
+    <string name="producer_addproduct">ಉತ್ಪನ್ನಗಳನ್ನು ಸೇರಿಸಿ</string>
+    <string name="producer_postadd">ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಸೇರಿಸಿ</string>
+    <string name="producer_logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="producer_logout2">ಲಾಗ್ ಔಟ್</string>
+
+    <!--    activity_producer_prods-->
+    <string name="producer_prods_view">ಉತ್ಪನ್ನಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="producer_prods_productlist">ನಿಮ್ಮ ಉತ್ಪನ್ನಗಳ ಪಟ್ಟಿ</string>
+    <string name="producer_prods_add">ಉತ್ಪನ್ನಗಳನ್ನು ಸೇರಿಸಿ</string>
+    <string name="producer_prods_postad">ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ ಸೇರಿಸಿ</string>
+
+
+    <!--    activity_product-->
+    <string name="product_select">ವರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="product_name">ಉತ್ಪನ್ನದ ಹೆಸರು*</string>
+    <string name="product_price">ಉತ್ಪನ್ನ ಬೆಲೆ*</string>
+    <string name="product_quantity">ಲಭ್ಯವಿರುವ ಪ್ರಮಾಣ*</string>
+    <string name="product_company">ಉತ್ಪನ್ನ ಕಂಪನಿ</string>
+    <string name="product_milktype">ಹಾಲಿನ ಪ್ರಕಾರ</string>
+    <string name="product_dis">ವಿವರಣೆ*</string>
+    <string name="product_property">ಪ್ರಾಪರ್ಟಿ *</string>
+    <string name="product_dis2">ವಿವರಣೆ*</string>
+    <string name="product_publish">ಪ್ರಕಟಿಸಿ</string>
+    <string name="product_addmore">ಹೆಚ್ಚಿನ ಕ್ಷೇತ್ರಗಳನ್ನು ಸೇರಿಸಿ</string>
+
+    <!--    activity_product_display-->
+
+    <string name="product_display_title">ಉತ್ಪನ್ನ ಶೀರ್ಷಿಕೆ</string>
+    <string name="product_display_rating">4.5</string>
+    <string name="product_display_totalrating">ಒಟ್ಟು ರೇಟಿಂಗ್‌ಗಳು</string>
+    <string name="product_display_price">Rs.659/-</string>
+    <string name="product_display_mobility">ಚಲನಶೀಲತೆ</string>
+    <string name="product_display_dis">ವಿವರಣೆ</string>
+    <string name="product_display_address">ವಿಳಾಸ</string>
+    <string name="product_display_map">ಮ್ಯಾಪ್ </string>
+    <string name="product_display_buynow">ಖರೀದಿಸಿ</string>
+    <string name="product_display_addtocart">ಕಾರ್ಟ್‌ಗೆ ಸೇರಿಸಿ</string>
+    <string name="product_display_quantity">ಪ್ರಮಾಣ</string>
+    <string name="product_display_quantity2">ಪ್ರಮಾಣ</string>
+
+    <!--    activity_product_edit-->
+    <string name="product_edit_upload">ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</string>
+    <string name="product_edit_producttitle">ಉತ್ಪನ್ನ ಶೀರ್ಷಿಕೆ</string>
+    <string name="product_edit_avl">ಅವೈಲಬಲ್ ಕ್ವಾಂಟಿಟಿ : </string>
+    <string name="product_edit_avlquantity">00</string>
+    <string name="product_edit_price">Rs. 0/-</string>
+    <string name="product_edit_desc">ವಿವರಣೆ</string>
+    <string name="product_edit_button">ಸೇರಿಸು ಅಳಿಸಿ</string>
+
+    <!--    activity_register-->
+    <string name="register_login">ಈಗಾಗಲೇ ನೋಂದಾಯಿಸಲಾಗಿದೆ? ಇಲ್ಲಿ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="register_register">ನೋಂದಣಿ</string>
+    <string name="register_phone">ದೂರವಾಣಿ</string>
+    <string name="register_password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="register_email">ಇಮೇಲ್</string>
+    <string name="register_fullname">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="register_title">ರಿಜಿಸ್ಟರ್</string>
+
+    <!--    activity_shop-->
+    <string name="shop_milk">ಹಾಲು</string>
+    <string name="shop_tender">ಟೆಂಡರ್ ತೆಂಗಿನಕಾಯಿ</string>
+    <string name="shop_range">ಶ್ರೇಣಿ 100 ಕಿ.ಮೀ.</string>
+    <string name="shop_locality">ಸ್ಥಳ</string>
+    <string name="shop_product">ಉತ್ಪನ್ನಗಳು</string>
+
+    <!--    activity_bar_main2-->
+    <string name="bar_main2_title">ಸೋಂಕಿತ ವ್ಯಕ್ತಿಯು ಕೆಮ್ಮಿದಾಗ, ಸೀನುವಾಗ ಅಥವಾ ಉಸಿರಾಡುವಾಗ COVID-19 ಸಾಮಾನ್ಯವಾಗಿ ಹನಿಗಳ ಮೂಲಕ ಹರಡುತ್ತದೆ. ಈ ಹನಿಗಳು ಗಾಳಿಯಲ್ಲಿ ಸ್ಥಗಿತಗೊಳ್ಳಲು ತುಂಬಾ ಭಾರವಾಗಿದ್ದು, ಮಹಡಿಗಳಲ್ಲಿ ಅಥವಾ ಮೇಲ್ಮೈಗಳಲ್ಲಿ ಬೀಳಬಹುದು.</string>
+    <string name="bar_main2_milk">ಹಾಲು</string>
+    <string name="bar_main2_coconut">ತೆಂಗಿನ ಕಾಯಿ</string>
+    <string name="bar_main2_chicken">ಚಿಕನ್</string>
+    <string name="bar_main2_mutton">ಮುಟ್ಟೋನ್</string>
+    <string name="bar_main2_range">ಶ್ರೇಣಿ\n100 ಕಿ.ಮೀ.</string>
+    <string name="bar_main2_locality">ಸ್<ಥಳ></ಥಳ></string>
+    <string name="bar_main2_product">ಉತ್ಪನ್ನಗಳು</string>
+
+    <string name="bar_main2_dal">Dal Pulses</string>
+    <string name="bar_main2_vegitable">Vegitables</string>
+    <string name="bar_main2_fruits">Fruits</string>
+    <string name="bar_main2_crops">Crops</string>
+    <string name="bar_main2_meat">Meat</string>
+    <string name="bar_main2_oil">Edible Oil</string>
+    <string name="bar_main2_Herb">Herbs</string>
+
+    <!--    activity_cart_view-->
+    <string name="cart_view_product">ಉತ್ಪನ್ನ</string>
+    <string name="cart_view_price">ಬೆಲೆ</string>
+    <string name="cart_view_qnty">ಪ್ರಮಾಣ: 1</string>
+    <string name="cart_view_del">ಅಳಿಸಿ</string>
+
+    <!--    activity_customer_status-->
+    <string name="customer_status_product">ಉತ್ಪನ್ನ</string>
+    <string name="customer_status_qnty">ಪ್ರಮಾಣ</string>
+    <string name="customer_status_price">ಬೆಲೆ</string>
+    <string name="customer_status_time">ಸಮಯ ದಿನಾಂಕ</string>
+    <string name="customer_status_orderid">ಆರ್ಡರ್ ಐಡಿ</string>
+    <string name="customer_status_payment">ಪಾವತಿ</string>
+    <string name="customer_status_cancel">ದಿ ಕ್ಯಾಂಕಲ್ ಆರ್ಡರ್</string>
+    <string name="customer_status_pay">ಪಾವತಿ</string>
+    <string name="customer_status_pending">ಬಾಕಿ ಉಳಿದಿರುವ ವ್ಯವಹಾರಗಳು</string>
+
+    <!--    activity_feedback-->
+    <string name="feedback_qty">ಪ್ರಶ್ನೆ: 1</string>
+    <string name="feedback_name">ಪಿಕ್ಸೆಲ್ 2 ಎಕ್ಸ್ಎಲ್</string>
+    <string name="feedback_price">Rs. 49999/-</string>
+    <string name="feedback_accept">ಒಪ್ಪಿಕೊಳ್ಳಿ</string>
+    <string name="feedback_decline">ಅವನತಿ</string>
+
+    <!--    activity_items-->
+    <string name="items_product">ಉತ್ಪನ್ನ</string>
+    <string name="items_price">ಬೆಲೆ</string>
+
+    <!--    activity_nav_header_main2-->
+    <string name="nav_header_main2_name">ಹೆಸರು</string>
+    <string name="nav_header_main2_type">ಮಾದರಿ</string>
+
+    <!--    activity_order_acceptview-->
+    <string name="order_acceptview_product">ಉತ್ಪನ್ನ</string>
+    <string name="order_acceptview_name">ಹೆಸರು</string>
+    <string name="order_acceptview_phone">ದೂರವಾಣಿ ಸಂಖ್ಯೆ</string>
+    <string name="order_acceptview_qnty">ಪ್ರಮಾಣ</string>
+    <string name="order_acceptview_price">ಬೆಲೆ</string>
+    <string name="order_acceptview_time">ಸಮಯ ದಿನಾಂಕ</string>
+    <string name="order_acceptview_id">ಆರ್ಡರ್ ಐಡಿ</string>
+    <string name="order_acceptview_payment">ಪಾವತಿ</string>
+    <string name="order_acceptview_accept">ಒಪ್ಪಿಕೊಳ್ಳಿ</string>
+    <string name="order_acceptview_decline">ಅವನತಿ</string>
+    <string name="order_acceptview_status">ಸ್ಥಿತಿ</string>
+
+    <!--    activity_order_details_view-->
+    <string name="order_details_view_product">ಉತ್ಪನ್ನ</string>
+    <string name="order_details_view_price">ಬೆಲೆ</string>
+    <string name="order_details_view_qnty">ಪ್ರಮಾಣ</string>
+
+    <!--    activity_popular_items-->
+    <string name="popular_items_product">ಉತ್ಪನ್ನ</string>
+    <string name="popular_items_price">ಬೆಲೆ</string>
+
+    <!--    activity_product_view-->
+    <string name="product_view_product">ಉತ್ಪನ್ನ</string>
+    <string name="product_view_qnty">ಪ್ರಮಾಣ</string>
+    <string name="product_view_price">ಬೆಲೆ</string>
+
+    <!--    activity_row-->
+    <string name="row_remove">ತೆಗೆದುಹಾಕಿ</string>
+
+    <!--    activity_main2_drawer-->
+    <string name="main2_drawer_home">ಮನೆ</string>
+    <string name="main2_drawer_profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="main2_drawer_cart">ನಿಮ್ಮ ಕಾರ್ಟ್</string>
+    <string name="main2_drawer_order">ನಿಮ್ಮ ಆದೇಶಗಳು</string>
+    <string name="main2_drawer_track">ಟ್ರ್ಯಾಕ್</string>
+    <string name="main2_drawer_urproduct">ನಿಮ್ಮ ಉತ್ಪನ್ನಗಳು</string>
+    <string name="main2_drawer_accept">ಆದೇಶಗಳನ್ನು ಸ್ವೀಕರಿಸಿ</string>
+    <string name="main2_drawer_add">ಉತ್ಪನ್ನವನ್ನು ಸೇರಿಸಿ</string>
+    <string name="main2_drawer_share">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="main2_drawer_about">ಬಗ್ಗೆ</string>
+    <string name="main2_drawer_logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="main2_drawer_lang">ಭಾಷೆ ಬದಲಾಯಿಸಿ</string>
+
+</resources>

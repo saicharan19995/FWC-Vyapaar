@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_Display">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.PopupOverlay"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/top"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105"
+        android:gravity="center"
+        android:id="@+id/cld2">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:id="@+id/picture"
+        tools:layout_editor_absoluteX="-16dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/product_edit_upload"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@id/picture"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/price_picture"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cld"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cld2">
+
+    <TextView
+        android:id="@+id/product_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:gravity="center"
+        android:layout_marginEnd="16dp"
+        android:text="@string/product_edit_producttitle"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/ic_action_edit"
+        app:layout_constraintEnd_toEndOf="@id/product_title"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/name_edit"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/product_edit_avl"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="@string/product_edit_avlquantity"
+            android:id="@+id/quantity"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/ic_action_edit"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintEnd_toEndOf="@id/product_title"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/qnty_edit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cld">
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Rs. 0/-" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_edit"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="@id/product_title"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/price_edit"/>
+
+
+    </LinearLayout>
+
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+     android:id="@+id/cld3">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/discription"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/product_edit_desc"
+        android:textSize="15dp"       >
+
+    </TextView>
+     <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:src="@drawable/ic_action_edit"
+         app:layout_constraintEnd_toEndOf="@id/product_title"
+         app:layout_constraintStart_toStartOf="parent"
+         android:id="@+id/discription_edit"/>
+ </LinearLayout>
+
+    <Button
+        android:id="@+id/delete_add"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/product_edit_button"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@+id/cld3"
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

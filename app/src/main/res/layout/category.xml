@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".Category">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/flot"
+        android:visibility="gone"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="25dp"
+        android:src="@drawable/ic_shopping_cart_white_24dp"
+        />
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.PopupOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/top"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ListView
+        android:id="@+id/search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@android:dimen/notification_large_icon_height"
+        ></ListView>
+
+
+    <include layout="@layout/content_main2" />
+
+    <LinearLayout
+        android:id="@+id/category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_scrollFlags="scroll|enterAlways">
+                <TextView
+                    android:id = "@+id/text"
+                    android:layout_marginTop="50dp"
+                    android:textSize = "20dp"
+                    android:textAlignment = "center"
+                    android:layout_width = "match_parent"
+                    android:ellipsize = "marquee"
+                    android:fadingEdge = "horizontal"
+                    android:marqueeRepeatLimit = "marquee_forever"
+                    android:scrollHorizontally = "true"
+                    android:textColor = "#ff4500"
+                    android:text = "@string/bar_main2_title"
+                    android:layout_height = "wrap_content"
+                    android:singleLine = "true" />
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/imgback">
+                </ViewFlipper>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+                <!--    <androidx.recyclerview.widget.RecyclerView-->
+                <!--        android:id="@+id/recyclerview_id"-->
+                <!--        android:layout_width="411dp"-->
+                <!--        android:layout_height="749dp"-->
+                <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--        app:layout_constraintEnd_toEndOf="parent"-->
+                <!--        app:layout_constraintStart_toStartOf="parent"-->
+                <!--        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">-->
+                <!--    </androidx.recyclerview.widget.RecyclerView>-->
+                <com.mienut.tst.AutofitRecyclerView
+                    android:id="@+id/recyclerview_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clipToPadding="false"
+                    android:padding="@dimen/activity_horizontal_margin" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
